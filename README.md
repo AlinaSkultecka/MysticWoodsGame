@@ -17,7 +17,7 @@ You can choose from four magical hero classes:
 | Class          | HP   | Damage | Gold | Description |
 |----------------|------|--------|------|-------------|
 | Knight         | 150  | 20     | 100  | A brave protector wearing enchanted armor, unafraid of dark creatures. |
-| Forest Mage    | 120  | 30     | 150  | A magic wielder who calls upon the forces of nature and forest spirits. |
+| Forest Mage    | 100  | 30     | 150  | A magic wielder who calls upon the forces of nature and forest spirits. |
 | Shadow Rogue   | 120  | 25     | 120  | A clever trickster who strikes from the shadows and moves unseen. |
 | Spirit Shaman  | 130  | 15     | 130  | A mystical healer in tune with the spirits, mending wounds and guiding allies. |
 
