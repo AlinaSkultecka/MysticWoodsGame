@@ -9,11 +9,19 @@ namespace MysticWoodsGame
         {
             List<PlayerData.Player > players = new List<PlayerData.Player>();
 
-
             Console.ForegroundColor = ConsoleColor.DarkGreen;
             Console.WriteLine("=== Mystic Woods: A Hero’s Journey ===\n");
             Console.ResetColor();
 
+            Console.WriteLine("                   _                               ");
+            Console.WriteLine("                 _(_)_                        ");
+            Console.WriteLine("   @@@@         (_)@(_)  vVVVv    _     @@@@         ");
+            Console.WriteLine("  @@()@@  wWWWw   (_)\\   (___)  _(_)_  @@()@@        ");
+            Console.WriteLine("   @@@@   (___)     `|/    Y   (_)@(_)  @@@@           ");
+            Console.WriteLine("    /       Y       \\|/    |     /(_)    \\|              ");
+            Console.WriteLine("  \\ |     \\ |/       | / \\ | /  \\|/       |/          ");
+            Console.WriteLine("  \\\\|//   \\\\|///  \\\\\\|//\\\\\\|/// \\|///  \\\\\\|//  ");
+            Console.WriteLine(" ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n");
             Console.WriteLine("In lands of mist and magic deep,");
             Console.WriteLine("The Mystic Woods its secrets keep.");
             Console.WriteLine("Wondrous creatures, treasures untold,");

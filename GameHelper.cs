@@ -14,7 +14,7 @@ namespace MysticWoodsGame
         public static void Adventure(List<PlayerData.Player> players)
         {
             Random random = new Random();
-            int turn;
+            int turn; 
             Enemy chosenEnemy;
             for (turn = 1; turn <= 3; turn++)
             {
@@ -58,7 +58,9 @@ namespace MysticWoodsGame
                 while (playing)
                 {
                     Console.Clear();
-
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine($"* You set off to meet adventures *");
+                    Console.ResetColor();
                     Console.WriteLine($"A wild {chosenEnemy.EnemyName} appears! The enemy has {chosenEnemy.Class}");
                     Console.WriteLine($"HP: {chosenEnemy.HP}, Damage: {chosenEnemy.Damage}, Gold: {chosenEnemy.Gold}\n");
 
@@ -119,7 +121,7 @@ namespace MysticWoodsGame
                         case 3:
                             Console.WriteLine("\nYou decide to flee, slipping away through the shadows of the forest!");
                             playing = false;
-                            break;
+                            return;
 
                         default:
                             Console.WriteLine("That choice cannot be made, brave hero. Try again!");
@@ -137,11 +139,13 @@ namespace MysticWoodsGame
         {
             Console.Clear();
 
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("You chose to take a break in the magical forest!\n");
+            Console.ResetColor();
             Console.WriteLine("You hear the gentle song of a nearby stream, its water sparkling as if touched by starlight.");
             Console.WriteLine("Ancient trees stand tall around you, their leaves whispering secrets of forgotten ages.");
             Console.WriteLine("For a moment, you feel safe and your strength slowly returns.\n");
-            players[0].HP += players[0].MaxHP;
+            players[0].HP = players[0].MaxHP;
             Console.WriteLine("Your wounds fade away, and your strength is fully restored!\n");
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();

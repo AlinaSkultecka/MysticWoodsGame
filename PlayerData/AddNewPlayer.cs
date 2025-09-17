@@ -80,6 +80,11 @@ namespace MysticWoodsGame.PlayerData
                     Gold = 100;
                     break;
             }
+            
+            Console.WriteLine($"Class: {playerClass}, HP: {HP}/{MaxHP}, Damage: {Damage}, Gold: {Gold}\n");
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.WriteLine("The forest welcomes you, hero, and the winds whisper tales of your destiny...\n");
+            Console.ResetColor();
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();
 
@@ -94,14 +99,6 @@ namespace MysticWoodsGame.PlayerData
             };
 
             players.Add(playerToAdd);
-
-            Console.Clear();
-            Console.WriteLine($"Player {playerName} has joined the adventure in the Magic Woods!");
-            Console.WriteLine($"Class: {playerClass}, HP: {HP}/{MaxHP}, Damage: {Damage}, Gold: {Gold}\n");
-            Console.WriteLine("The forest welcomes you, hero, and the winds whisper tales of your destiny...\n");
-
-            Console.WriteLine("Press any key to continue...");
-            Console.ReadKey();
 
         }
     }

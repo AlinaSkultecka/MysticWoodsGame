@@ -18,7 +18,7 @@ namespace MysticWoodsGame.EnemyData
             get
             {
                 if (HP <= 60) return "1 level of villainy.";
-                else if (HP <= 120) return "2 level of villainy.";
+                else if (HP <= 100) return "2 level of villainy.";
                 else return "advanced level of villainy";
             }
         }
