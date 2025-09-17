@@ -23,7 +23,7 @@ namespace MysticWoodsGame.PlayerData
             Console.WriteLine("  A brave protector wearing enchanted armor, unafraid of dark creatures.\n");
 
             Console.WriteLine("Class Forest Mage:");
-            Console.WriteLine("  HP: 100, Max HP: 120, Damage: 30, Gold: 150");
+            Console.WriteLine("  HP: 100, Max HP: 100, Damage: 30, Gold: 150");
             Console.WriteLine("  A magic wielder who calls upon the forces of nature and forest spirits.\n");
 
             Console.WriteLine("Class Shadow Rogue:");
