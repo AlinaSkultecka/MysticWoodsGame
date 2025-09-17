@@ -98,7 +98,20 @@ namespace MysticWoodsGame
                             Console.WriteLine($"The {chosenEnemy.EnemyName} strikes you. You got {chosenEnemy.Damage} damage!");
                             if (players[0].HP <= 0)
                             {
-                                Console.WriteLine("You have fallen in battle, hero… Your journey ends here.");
+                                Console.WriteLine("You have fallen in battle, hero… Your journey ends here.\n");
+                                Console.ForegroundColor = ConsoleColor.DarkRed;
+                                Console.WriteLine("  ▄████  ▄▄▄       ███▄ ▄███▓▓█████     ▒█████   ██▒   █▓▓█████  ██▀███  ");
+                                Console.WriteLine(" ██▒ ▀█▒▒████▄    ▓██▒▀█▀ ██▒▓█   ▀    ▒██▒  ██▒▓██░   █▒▓█   ▀ ▓██ ▒ ██▒");
+                                Console.WriteLine("▒██░▄▄▄░▒██  ▀█▄  ▓██    ▓██░▒███      ▒██░  ██▒ ▓██  █▒░▒███   ▓██ ░▄█ ▒");
+                                Console.WriteLine("░▓█  ██▓░██▄▄▄▄██ ▒██    ▒██ ▒▓█  ▄    ▒██   ██░  ▒██ █░░▒▓█  ▄ ▒██▀▀█▄  ");
+                                Console.WriteLine("░▒▓███▀▒ ▓█   ▓██▒▒██▒   ░██▒░▒████▒   ░ ████▓▒░   ▒▀█░  ░▒████▒░██▓ ▒██▒");
+                                Console.WriteLine(" ░▒   ▒  ▒▒   ▓▒█░░ ▒░   ░  ░░░ ▒░ ░   ░ ▒░▒░▒░    ░ ▐░  ░░ ▒░ ░░ ▒▓ ░▒▓░");
+                                Console.WriteLine("  ░   ░   ▒   ▒▒ ░░  ░      ░ ░ ░  ░     ░ ▒ ▒░    ░ ░░   ░ ░  ░  ░▒ ░ ▒░");
+                                Console.WriteLine("░ ░   ░   ░   ▒   ░      ░      ░      ░ ░ ░ ▒       ░░     ░     ░░   ░ ");
+                                Console.WriteLine("      ░       ░  ░       ░      ░  ░       ░ ░        ░     ░  ░   ░     ");
+                                Console.WriteLine("                                                     ░                    ");
+                                Console.ResetColor();
+
                                 playing = false;
                             }
                             canHeal = true;

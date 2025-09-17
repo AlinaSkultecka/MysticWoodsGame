@@ -10,6 +10,7 @@ namespace MysticWoodsGame.EnemyData
     {
         public string EnemyName { get; set; }
         public int HP { get; set; }
+        public int BaseHP { get; set; }
         public int Damage { get; set; }
         public int Gold { get; set; }
         public bool Defeated { get; set; } = false;
@@ -17,8 +18,8 @@ namespace MysticWoodsGame.EnemyData
         {
             get
             {
-                if (HP <= 60) return "1 level of villainy.";
-                else if (HP <= 100) return "2 level of villainy.";
+                if (BaseHP <= 60) return "1 level of villainy.";
+                else if (BaseHP <= 100) return "2 level of villainy.";
                 else return "advanced level of villainy";
             }
         }
