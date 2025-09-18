@@ -1,6 +1,6 @@
 # Mystic Woods: A Hero’s Journey
 
-Welcome to **Mystic Woods: A Hero’s Journey** game, a text-based adventure game written in **C#**, where you step into a magical forest filled with wondrous creatures and epic battles.  
+Welcome to **Mystic Woods: A Hero’s Journey** game, a text-based adventure console game written in **C#**, where you step into a magical forest filled with wondrous creatures and epic battles.  
 
 ---
 
