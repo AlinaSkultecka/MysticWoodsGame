@@ -36,21 +36,3 @@ During battles:
 - Flee if the danger is too great.  
 
 Enemies have unique stats, and defeating them rewards gold and experience.
-
----
-
-## 🎮 Features
-
-- Text-based RPG with fairy-tale theme.  
-- Multiple hero classes with unique traits.  
-- Randomized enemy encounters.  
-- Turn-based combat system with attack, heal, and run options.  
-- Fairy-tale styled messages for immersive gameplay.
-
----
-
-## 💻 Installation
-
-Clone the repository:  
-```bash
-https://github.com/AlinaSkultecka/Mini-adventure.git
